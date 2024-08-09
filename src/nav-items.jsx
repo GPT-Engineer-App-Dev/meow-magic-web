@@ -1,4 +1,15 @@
-import { Home } from "lucide-react";
+import { Cat } from "lucide-react";
+</lov-replace>
+
+<lov-search>
+    title: "Home",
+    to: "/",
+    icon: <Home className="h-4 w-4" />,
+</lov-search>
+<lov-replace>
+    title: "Cats",
+    to: "/",
+    icon: <Cat className="h-4 w-4" />,
 import Index from "./pages/Index.jsx";
 
 /**
